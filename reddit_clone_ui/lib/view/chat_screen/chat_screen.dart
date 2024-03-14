@@ -12,24 +12,24 @@ class ChatScreen extends StatelessWidget {
           width: 180,
           height: 180,
           decoration: const BoxDecoration(
-            shape: BoxShape.circle,
-            image: DecorationImage(image: AssetImage(""),
-            fit: BoxFit.cover,
-            )
+              shape: BoxShape.circle,
+              image: DecorationImage(image: AssetImage("assets/images/chatroom.jpg"),
+                fit: BoxFit.cover,
+              )
           ),
         ),
         const SizedBox(height: 10),
         const Text(
-          "Your chats will show up here.",
+          "Welcome to chat!",
           style: TextStyle(fontWeight: FontWeight.bold,fontSize: 17),
         ),
         const Padding(
           padding: EdgeInsets.only(left: 60,right: 60,bottom: 4),
           child: Text(
-            "Get Started by tapping the new chat button here or on someones's profile",
+            "Chat With other Redditors about your favourite topics",
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontWeight:FontWeight.normal
+                fontWeight:FontWeight.normal, fontSize:15
             ),
           ),
 
@@ -37,15 +37,15 @@ class ChatScreen extends StatelessWidget {
         ElevatedButton(
           onPressed: () {},
           style:ElevatedButton.styleFrom(
-            padding: const EdgeInsets.symmetric(horizontal: 50),
-            elevation: 0.0,
-            primary: Theme.of(context).colorScheme.secondary,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(20)
-            )
+              padding: const EdgeInsets.symmetric(horizontal: 50),
+              elevation: 0.0,
+              primary: Theme.of(context).colorScheme.secondary,
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(20)
+              )
           ),
           child: const Text(
-            "Start chatting",
+            "Explore channels",
             style: TextStyle(color: Colors.white ),
           ),
 

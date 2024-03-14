@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import'package:reddit_clone_ui/utiles/theme.dart';
-import'package:reddit_clone_ui/Screens/HomeScreen/homescreen.dart';
+import 'package:reddit_clone_ui/screen/home_screen.dart';
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
 
